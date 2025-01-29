@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Registration</title>
+    <br><br>
+    <link rel="stylesheet" href="registrations.css">
+</head>
+<body>
+    
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Parent Registration</h1>
+    <div id="form-container">
+    <form action="" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="name">Child Name</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="number">Age</label>
+        <input type="number" id="number" num="number">
+        <br><br>
+        <label for="email"> Email</label>
+        <input type="email" id="semail" name="email" required>
+        <br><br>
+
+        <label for="phone">Phone Number: </label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+         <br><br>
+
+         <label>Gender:</label><br>
+            <div style="display: flex; gap: 10px;">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="others" name="gender" value="others">
+                <label for="others">Others</label>
+            </div><br>
+            <br><br>
+         <label for="dob"> Date of Birth</label>
+         <input type="date" id="dob" name="dob" required>
+         <br><br>
+
+         <label for="address">Address</label>
+        <textarea name="address" id="address" rows="4" cols="30" required></textarea>
+        <br><br>
+        <label for="password">Enter the Password</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <label for="password">Confirm Password</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <button type="submit">Register</button>
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
